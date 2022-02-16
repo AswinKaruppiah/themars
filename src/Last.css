@@ -1,0 +1,60 @@
+.last {
+  height: 700px;
+  width: 100%;
+  color: white;
+  position: relative;
+  overflow-y: hidden;
+}
+.footerul {
+  margin-top: 100px;
+}
+.head5 {
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-family: "Rowdies", cursive;
+  float: left;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+.iconitem {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 200px;
+}
+.iconl {
+  margin: 10px;
+  z-index: 4;
+}
+.lastbot {
+  height: 100%;
+  width: 100%;
+}
+.photopng {
+  top: 250px;
+  position: absolute;
+  object-fit: fill;
+  height: 2000px;
+  width: 2000px;
+  left: -230px;
+}
+body {
+  transition: 500ms;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.last::-webkit-scrollbar {
+  display: none;
+}
+.copy {
+  font-family: "Rowdies", cursive;
+  line-height: 140vh;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 5;
+  letter-spacing: 2px;
+  font-weight: 400;
+}

@@ -1,0 +1,67 @@
+body {
+  background-attachment: fixed;
+  overflow-x: hidden;
+  background: rgb(90, 27, 6);
+  background: -moz-linear-gradient(
+    63deg,
+    rgb(90, 27, 6) 5%,
+    rgb(17, 17, 17) 53%
+  );
+  background: -webkit-linear-gradient(
+    63deg,
+    rgb(90, 27, 6) 5%,
+    rgba(0, 0, 0, 1) 53%
+  );
+  background: linear-gradient(120deg, rgb(90, 27, 6) 5%, rgba(0, 0, 0, 1) 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ce542c",endColorstr="#000000",GradientType=1);
+}
+.photo {
+  font-family: "Heebo", sans-serif;
+
+  width: 100%;
+  margin-top: 200px;
+}
+.photonote {
+  width: 100%;
+}
+.photob {
+  display: block;
+  margin-left: 150px;
+}
+.photoli {
+  margin-bottom: 0;
+  font-weight: 600;
+  display: block;
+  font-size: 40px;
+  color: antiquewhite;
+  margin-left: 150px;
+  letter-spacing: 2px;
+}
+/* .photoli2 {
+  margin-left: 0;
+  margin-right: 75px;
+  color: rgb(204, 194, 181);
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 270px;
+} */
+.marspl {
+  height: 550px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 10px;
+}
+.image1 {
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  justify-content: center;
+}
+.question {
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.mars1 {
+}
