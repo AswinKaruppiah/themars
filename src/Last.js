@@ -36,13 +36,13 @@ function Last() {
           <EmailOutlinedIcon fontSize="large" />
         </div>
       </div>
-      <div>
+      <div data-aos="fade-up">
         <h4 className="copy">
           © Copyright Web developer Aswinth Feb 16 in 2022
         </h4>
       </div>
 
-      <div data-aos="fade-up" className="lastbot">
+      <div className="lastbot">
         <img data-aos="fade-up" className="photopng" src={Botmars} />
       </div>
     </div>

@@ -4,6 +4,7 @@
   color: white;
   position: relative;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 .footerul {
   margin-top: 100px;
@@ -40,7 +41,6 @@
   left: -230px;
 }
 body {
-  transition: 500ms;
 }
 body::-webkit-scrollbar {
   display: none;
