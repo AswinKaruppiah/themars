@@ -32,11 +32,12 @@ body {
   margin: 0;
 }
 .head {
+  font-weight: 900;
+  letter-spacing: 2px;
   font-family: "Rowdies", cursive;
   float: left;
-  font-weight: 700;
-  letter-spacing: 5px;
-  margin: 50px 100px;
+  margin-top: 50px;
+  margin-left: 150px;
 }
 ul {
   font-family: "Montserrat", sans-serif;
