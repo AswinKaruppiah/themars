@@ -188,7 +188,7 @@ function Page() {
             <h4 data-aos="fade-up">China started the exploration of mars</h4>
 
             <p data-aos="fade-up" className="note3p2">
-              The remotely controoled chinese cruiser Zhurong drove the copsule
+              The remotely controlled chinese cruiser Zhurong drove the copsule
               line
             </p>
           </div>

@@ -9,7 +9,7 @@ function Photo() {
     <div className="photo">
       <div className="photonote">
         <button data-aos="fade-up" className="btn2 photob">
-          Galery
+          Gallery
         </button>
         <h2 data-aos="fade-right" className="photoli">
           Mars Photo

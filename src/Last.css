@@ -41,6 +41,7 @@
   left: -230px;
 }
 body {
+  scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
   display: none;
