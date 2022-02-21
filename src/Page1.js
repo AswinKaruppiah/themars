@@ -96,7 +96,7 @@ function Page() {
             </p>
             <div className="pagenote2">
               <p data-aos="fade-up" className="page2title2">
-                Mars<span data-aos="fade-up"> distance from earth</span>
+                Moon<span data-aos="fade-up"> distance from earth</span>
               </p>
               <p data-aos="fade-up" className="page2title3">
                 <span id="number1" className="counter">

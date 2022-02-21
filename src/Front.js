@@ -61,6 +61,7 @@ function Front() {
 
   window.addEventListener("scroll", function () {
     let value = window.scrollY;
+    paralle[0].style.Transition = value * 500 + "ms";
     if (value < 600) {
       paralle[0].style.marginRight = value * 1.5 + "px";
     } else if (value >= 600) {
