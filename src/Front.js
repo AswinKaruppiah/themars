@@ -41,39 +41,42 @@ import {
 // let scrollSpy = Scroll.scrollSpy;
 
 function Front() {
-  let values = window.scrollY;
-  console.log(values);
-
   const [change, setchange] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 600) {
+        setchange(true);
+        console.log("working state");
+      } else {
+        setchange(false);
+      }
+      return () => {
+        window.removeEventListener("scroll");
+      };
+    });
+  }, []);
 
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 600) {
-      setchange(true);
-      console.log("working state");
-    } else {
-      setchange(false);
-    }
-    return () => {
-      window.removeEventListener("scroll");
-    };
-  });
-  var paralle = document.getElementsByClassName("marscover");
+  useEffect(() => {
+    let values = window.scrollY;
 
-  window.addEventListener("scroll", function () {
-    let value = window.scrollY;
-    paralle[0].style.Transition = value * 500 + "ms";
-    if (value < 600) {
-      paralle[0].style.marginRight = value * 1.5 + "px";
-    } else if (value >= 600) {
-      paralle[0].style.marginLeft = value * 0.9 + "px";
-    } else {
-      console.log("not reached2");
-    }
+    var paralle = document.getElementsByClassName("marscover");
 
-    return () => {
-      window.removeEventListener("scroll");
-    };
-  });
+    window.addEventListener("scroll", function () {
+      let value = window.scrollY;
+      paralle[0].style.Transition = value * 500 + "ms";
+      if (value < 600) {
+        paralle[0].style.marginRight = value * 1.5 + "px";
+      } else if (value >= 600) {
+        paralle[0].style.marginLeft = value * 0.9 + "px";
+      } else {
+        console.log("not reached2");
+      }
+
+      return () => {
+        window.removeEventListener("scroll");
+      };
+    });
+  }, []);
 
   return (
     <div>

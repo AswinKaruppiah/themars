@@ -30,6 +30,7 @@ function Page() {
       window.removeEventListener("scroll");
     };
   });
+
   const [show2, setscroll2] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
