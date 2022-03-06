@@ -1,0 +1,38 @@
+.z {
+  height: 100vh;
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  z-index: 3;
+  scroll-behavior: smooth;
+}
+.marscover {
+  height: 45rem;
+  width: 50rem;
+  position: absolute;
+  right: -150px;
+  top: 50px;
+  animation: slide 7s ease-in;
+  scroll-behavior: smooth;
+}
+/* .marscover:hover {
+  transform: ;
+} */
+.newset {
+  left: -570px;
+}
+
+@keyframes slide {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
